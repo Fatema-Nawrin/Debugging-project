@@ -244,6 +244,14 @@ img {
 #reported{
   display: none;
 }
+/* style for answer section  */
+.answer{
+  width: 80%;
+  margin: 2rem auto;
+}
+.answer h3{
+  padding: 10px 0px;
+}
 
 @media only screen and (max-width: 992px) {
   #posts {
