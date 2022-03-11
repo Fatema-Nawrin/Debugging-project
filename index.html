@@ -69,7 +69,8 @@
         <h3>What does event loop do?</h3>
         <p>Javascript is single threaded, non-blocking & asynchronous. Javascript has 3 sections for execution of code,
             call stack, web API & task queue. Call stack is a data structure where code is executed. If there is a web
-            API function, it goes over to web API. After Web API finishes executing the task, it goes to the Task Queue.
+            API function, call stack send it over to web API. After Web API finishes executing the task, it goes to the
+            Task Queue.
         </p>
         <p> If the call stack is empty, first thing from task queue is pushed into the stack. After that wait for the
             stack to be cleared again & repeat the process until task queue is empty. This process is called event loop.
